@@ -1,0 +1,267 @@
+{
+  "name": "Timber garden gateway",
+  "description": "A roofed garden entrance with a curved opening, timber posts, stone feet, approach and flowers.",
+  "operations": [
+    {
+      "kind": "part",
+      "id": "p0",
+      "partId": "plate-6x6-tan",
+      "parent": "",
+      "parentPort": "",
+      "childPort": "",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p1",
+      "partId": "brick-1x2-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:1:3",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p2",
+      "partId": "brick-1x2-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:3:3",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p3",
+      "partId": "brick-1x2-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:1:4",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p4",
+      "partId": "brick-1x2-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:3:4",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p5",
+      "partId": "brick-1x2-medium-nougat",
+      "parent": "p0",
+      "parentPort": "stud:0:3",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "p6",
+      "partId": "brick-1x2-medium-nougat",
+      "parent": "p0",
+      "parentPort": "stud:5:3",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "p7",
+      "partId": "roundplate-1x1-green",
+      "parent": "p0",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p8",
+      "partId": "roundplate-1x1-green",
+      "parent": "p0",
+      "parentPort": "stud:5:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p9",
+      "partId": "plate-2x4-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p10",
+      "partId": "plate-1x4-light-gray",
+      "parent": "p0",
+      "parentPort": "stud:1:2",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p11",
+      "partId": "plate-1x2-tan",
+      "parent": "p0",
+      "parentPort": "stud:2:5",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p12",
+      "partId": "roundplate-1x1-red",
+      "parent": "p7",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p13",
+      "partId": "roundplate-1x1-red",
+      "parent": "p8",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p14",
+      "partId": "tile-1x4-tan",
+      "parent": "p9",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p15",
+      "partId": "plate-1x4-light-gray",
+      "parent": "p10",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p16",
+      "partId": "tile-1x2-tan",
+      "parent": "p11",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p17",
+      "partId": "tile-1x4-tan",
+      "parent": "p15",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p18",
+      "partId": "brick-1x2-reddish-brown",
+      "parent": "p1",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "p19",
+      "partId": "brick-1x2-reddish-brown",
+      "parent": "p2",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "p20",
+      "partId": "tile-1x2-light-gray",
+      "parent": "p5",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p21",
+      "partId": "tile-1x2-light-gray",
+      "parent": "p6",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p22",
+      "partId": "tile-1x2-tan",
+      "parent": "p1",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p23",
+      "partId": "tile-1x2-tan",
+      "parent": "p3",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p24",
+      "partId": "brick-1x2-reddish-brown",
+      "parent": "p18",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p25",
+      "partId": "brick-1x2-reddish-brown",
+      "parent": "p19",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "p26",
+      "partId": "arch-1x4-reddish-brown",
+      "parent": "p24",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": -90
+    },
+    {
+      "kind": "part",
+      "id": "p27",
+      "partId": "brick-1x4-reddish-brown",
+      "parent": "p24",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": -90
+    },
+    {
+      "kind": "technique",
+      "id": "roof",
+      "choiceId": "gable-roof-white",
+      "parent": "p26",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:1",
+      "twist": 0
+    }
+  ]
+}

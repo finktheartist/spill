@@ -1,0 +1,199 @@
+{
+  "name": "Survey robot bust",
+  "description": "Authored controlled-kit assembly with a shaped chest, thin visor, and neck.",
+  "operations": [
+    {
+      "kind": "part",
+      "id": "stand",
+      "partId": "plate-2x4-black",
+      "parent": "",
+      "parentPort": "",
+      "childPort": "",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "plinthA",
+      "partId": "brick-2x2-dark-gray",
+      "parent": "stand",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "plinthB",
+      "partId": "brick-2x2-dark-gray",
+      "parent": "stand",
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "base",
+      "partId": "plate-2x4-white",
+      "parent": "plinthA",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "torso",
+      "partId": "brick-2x4-white",
+      "parent": "base",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "chestL",
+      "choiceId": "surface-slope-2x2-white--90-light-gray",
+      "parent": "torso",
+      "parentPort": "stud:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "chestR",
+      "choiceId": "surface-slope-2x2-white-90-light-gray",
+      "parent": "torso",
+      "parentPort": "stud:2:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "backL",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "torso",
+      "parentPort": "stud:1:1",
+      "twist": 180
+    },
+    {
+      "kind": "technique",
+      "id": "backR",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "torso",
+      "parentPort": "stud:3:1",
+      "twist": 180
+    },
+    {
+      "kind": "part",
+      "id": "shoulders",
+      "partId": "brick-2x4-white",
+      "parent": "chestL.mount",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "chestCapL",
+      "partId": "tile-1x2-white",
+      "parent": "chestL.face",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "chestCapR",
+      "partId": "tile-1x2-white",
+      "parent": "chestR.face",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "neck",
+      "partId": "roundbrick-2x2-black",
+      "parent": "shoulders",
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "headLower",
+      "partId": "brick-2x2-white",
+      "parent": "neck",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "mask",
+      "choiceId": "surface-plate-2x2-black-0-light-gray",
+      "parent": "headLower",
+      "parentPort": "stud:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "headUpper",
+      "partId": "brick-2x2-white",
+      "parent": "mask.mount",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "eyeL",
+      "partId": "roundtile-1x1-white",
+      "parent": "mask.face",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "eyeR",
+      "partId": "roundtile-1x1-white",
+      "parent": "mask.face",
+      "parentPort": "stud:1:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "mouth",
+      "partId": "tile-1x2-black",
+      "parent": "mask.face",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "cap",
+      "partId": "plate-2x2-white",
+      "parent": "headUpper",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "capA",
+      "partId": "tile-1x2-white",
+      "parent": "cap",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "capB",
+      "partId": "tile-1x2-white",
+      "parent": "cap",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    }
+  ]
+}

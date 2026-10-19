@@ -1,0 +1,371 @@
+{
+  "_note": "Small model regression fixture; not a finished-build quality claim.",
+  "program": {
+    "name": "Kingfisher on Perch",
+    "pitch": "A vibrant azure and orange kingfisher with a prominent fishing beak perched on a sturdy wooden branch.",
+    "thinking": "The kingfisher is defined by its stocky upright posture, big head, long pointed beak, short tail, and vivid color contrast: azure/dark-azure back, head, and wings against a bright-light-orange chest and white throat patch. At 7x4x6 studs, the perch sits at z=0 to 1.2 running along y (4 studs wide) and x=2 to 5. The orange chest and belly rise from z=1.2 to 4.2, bulging forward at x=3 to 5.4. The white throat patch sits between the chest and beak from z=3.6 to 4.6. The head sits from z=4.2 to 6.0, topped with azure curved slopes ('rounded head and back'). The prominent 'pointed fishing beak' juts forward at x=5.0 to 7.0, z=4.6 to 5.4, using cheese slopes on top supported by an orange lower jaw attached to the throat. The 'swept wing and tail feathers' use dark-azure 45-degree slopes along the sides and back (x=0.5 to 3.5, z=1.2 to 4.2), angling down toward the tail tip at x=0.5.",
+    "length": 7,
+    "width": 4,
+    "height": 6,
+    "palette": [
+      {
+        "role": "wings and head",
+        "colors": [
+          "azure",
+          "dark-azure",
+          "medium-blue"
+        ]
+      },
+      {
+        "role": "tail and crest",
+        "colors": [
+          "dark-azure",
+          "azure",
+          "medium-blue"
+        ]
+      },
+      {
+        "role": "chest and beak",
+        "colors": [
+          "bright-light-orange",
+          "yellow"
+        ]
+      },
+      {
+        "role": "branch perch",
+        "colors": [
+          "reddish-brown",
+          "medium-nougat"
+        ]
+      },
+      {
+        "role": "throat patch",
+        "colors": [
+          "white",
+          "light-gray"
+        ]
+      },
+      {
+        "role": "rounded head and back",
+        "colors": [
+          "azure",
+          "dark-azure",
+          "medium-blue"
+        ],
+        "parts": [
+          "curve"
+        ]
+      },
+      {
+        "role": "swept wing and tail feathers",
+        "colors": [
+          "dark-azure",
+          "azure",
+          "medium-blue"
+        ],
+        "parts": [
+          "slope"
+        ]
+      },
+      {
+        "role": "pointed fishing beak",
+        "colors": [
+          "bright-light-orange",
+          "yellow"
+        ],
+        "parts": [
+          "cheese"
+        ]
+      }
+    ],
+    "pieces": [
+      {
+        "name": "perch_branch",
+        "shape": "box",
+        "a": [
+          3.5,
+          0,
+          0.6
+        ],
+        "b": [
+          1.6,
+          2,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.4,
+        "role": "branch perch",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "perch_stump",
+        "shape": "box",
+        "a": [
+          2.2,
+          0,
+          1.2
+        ],
+        "b": [
+          1.2,
+          1.2,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.3,
+        "role": "branch perch",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "belly_chest",
+        "shape": "ellipsoid",
+        "a": [
+          3.8,
+          0,
+          2.7
+        ],
+        "b": [
+          1.7,
+          1.6,
+          1.6
+        ],
+        "r": 0,
+        "round": 0,
+        "role": "chest and beak",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "throat",
+        "shape": "box",
+        "a": [
+          4.3,
+          0,
+          4.1
+        ],
+        "b": [
+          1.3,
+          1.4,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.4,
+        "role": "throat patch",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "back_core",
+        "shape": "ellipsoid",
+        "a": [
+          2.6,
+          0,
+          3.2
+        ],
+        "b": [
+          1.6,
+          1.8,
+          1.6
+        ],
+        "r": 0,
+        "round": 0,
+        "role": "wings and head",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "swept_wings",
+        "shape": "box",
+        "a": [
+          2.4,
+          1.2,
+          3
+        ],
+        "b": [
+          1.5,
+          0.8,
+          1.3
+        ],
+        "r": 0,
+        "round": 0.2,
+        "role": "swept wing and tail feathers",
+        "mirror": true,
+        "cut": false
+      },
+      {
+        "name": "tail_feathers",
+        "shape": "capsule",
+        "a": [
+          2.2,
+          0,
+          2.6
+        ],
+        "b": [
+          0.7,
+          0,
+          1.8
+        ],
+        "r": 1.2,
+        "round": 0,
+        "role": "swept wing and tail feathers",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "head_base",
+        "shape": "box",
+        "a": [
+          3.5,
+          0,
+          4.6
+        ],
+        "b": [
+          1.6,
+          1.6,
+          0.7
+        ],
+        "r": 0,
+        "round": 0.4,
+        "role": "wings and head",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "head_crest",
+        "shape": "box",
+        "a": [
+          2.1,
+          0,
+          4.8
+        ],
+        "b": [
+          0.8,
+          1.2,
+          0.7
+        ],
+        "r": 0,
+        "round": 0.3,
+        "role": "tail and crest",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "head_top_curve",
+        "shape": "box",
+        "a": [
+          3.4,
+          0,
+          5.5
+        ],
+        "b": [
+          1.6,
+          1.2,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.2,
+        "role": "rounded head and back",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "beak_lower_support",
+        "shape": "box",
+        "a": [
+          5.4,
+          0,
+          4.2
+        ],
+        "b": [
+          1.2,
+          1,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.2,
+        "role": "chest and beak",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "beak_upper_point",
+        "shape": "box",
+        "a": [
+          5.7,
+          0,
+          5.1
+        ],
+        "b": [
+          1.3,
+          1,
+          0.6
+        ],
+        "r": 0,
+        "round": 0.1,
+        "role": "pointed fishing beak",
+        "mirror": false,
+        "cut": false
+      },
+      {
+        "name": "cheek_patch",
+        "shape": "ellipsoid",
+        "a": [
+          4.2,
+          1.5,
+          4.6
+        ],
+        "b": [
+          0.6,
+          0.4,
+          0.5
+        ],
+        "r": 0,
+        "round": 0,
+        "role": "chest and beak",
+        "mirror": true,
+        "cut": false
+      }
+    ],
+    "paint": [
+      {
+        "role": "throat patch",
+        "pieces": [
+          "belly_chest",
+          "throat",
+          "head_base"
+        ],
+        "zMin": 3.5,
+        "zMax": 4.7,
+        "xMin": 4.2,
+        "xMax": 5.6,
+        "yMax": 1.2
+      },
+      {
+        "role": "wings and head",
+        "pieces": [
+          "back_core",
+          "belly_chest"
+        ],
+        "zMin": 2.4,
+        "zMax": 4.8,
+        "xMin": 1,
+        "xMax": 3.4,
+        "yMax": 2
+      },
+      {
+        "role": "swept wing and tail feathers",
+        "pieces": [
+          "tail_feathers",
+          "swept_wings",
+          "back_core"
+        ],
+        "zMin": 1.2,
+        "zMax": 3.6,
+        "xMin": 0,
+        "xMax": 2.6,
+        "yMax": 2
+      }
+    ]
+  }
+}

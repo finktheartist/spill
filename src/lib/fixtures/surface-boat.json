@@ -1,0 +1,241 @@
+{
+  "name": "Coastal launch",
+  "description": "Controlled kit surface-module boat fixture; authored, not AI-generated.",
+  "operations": [
+    {
+      "kind": "part",
+      "id": "keel",
+      "partId": "plate-4x8-black",
+      "parent": "",
+      "parentPort": "",
+      "childPort": "",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "core00",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "port0",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core00",
+      "parentPort": "stud:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "core01",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:0:2",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "starboard0",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core01",
+      "parentPort": "stud:1:1",
+      "twist": 180
+    },
+    {
+      "kind": "part",
+      "id": "core10",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "port1",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core10",
+      "parentPort": "stud:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "core11",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:2:2",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "starboard1",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core11",
+      "parentPort": "stud:1:1",
+      "twist": 180
+    },
+    {
+      "kind": "part",
+      "id": "core20",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:4:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "port2",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core20",
+      "parentPort": "stud:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "core21",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:4:2",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "starboard2",
+      "choiceId": "surface-tile-2x2-white-0-light-gray",
+      "parent": "core21",
+      "parentPort": "stud:1:1",
+      "twist": 180
+    },
+    {
+      "kind": "part",
+      "id": "core30",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:6:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "core31",
+      "partId": "brick-2x2-white",
+      "parent": "keel",
+      "parentPort": "stud:6:2",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "technique",
+      "id": "bowA",
+      "choiceId": "surface-slope-2x2-white--90-light-gray",
+      "parent": "core30",
+      "parentPort": "stud:1:0",
+      "twist": 90
+    },
+    {
+      "kind": "technique",
+      "id": "bowB",
+      "choiceId": "surface-slope-2x2-white-90-light-gray",
+      "parent": "core31",
+      "parentPort": "stud:1:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "bowCapA",
+      "partId": "tile-1x2-white",
+      "parent": "bowA.face",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "bowCapB",
+      "partId": "tile-1x2-white",
+      "parent": "bowB.face",
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "deck",
+      "partId": "plate-2x4-white",
+      "parent": "port1.mount",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "windowA",
+      "partId": "brick-1x2-trans-clear",
+      "parent": "deck",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "windowB",
+      "partId": "brick-1x2-trans-clear",
+      "parent": "deck",
+      "parentPort": "stud:3:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "kind": "part",
+      "id": "roof",
+      "partId": "plate-2x4-white",
+      "parent": "windowA",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": -90
+    },
+    {
+      "kind": "part",
+      "id": "roofA",
+      "partId": "tile-1x2-white",
+      "parent": "roof",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "roofB",
+      "partId": "tile-1x2-white",
+      "parent": "roof",
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "mast",
+      "partId": "roundbrick-1x1-black",
+      "parent": "roof",
+      "parentPort": "stud:2:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "kind": "part",
+      "id": "beacon",
+      "partId": "roundplate-1x1-trans-red",
+      "parent": "mast",
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    }
+  ]
+}

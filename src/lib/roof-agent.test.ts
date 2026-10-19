@@ -1,0 +1,30 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {designBuild,type BuildEvent} from './gemini';
+import {compileTechniques} from './construction-techniques';
+import type {TechniqueProgram} from './construction-techniques';
+import {constructionIssues} from './construction';
+import {parsePartId} from './bricks';
+import type {Inventory} from './inventory';
+import fixture from './fixtures/large-pile-stock.json';
+import raw from './fixtures/roof-gateway.json';
+const stock=fixture.stock,program=raw as TechniqueProgram;
+const inv:Inventory={source:'photo',photos:[],others:[],parts:Object.fromEntries(Object.entries(stock).map(([id,count])=>[id,{kind:parsePartId(id)!,count,confidence:.8,boxes:[]}]))};
+const reply=(json:unknown)=>(new Response(JSON.stringify({modelVersion:'gemini-test-model',candidates:[{finishReason:'STOP',content:{role:'model',parts:[{text:JSON.stringify(json)}]}}]}), { status: 200 }));
+const plan={choiceId:'gable-roof-white',feature:'A pitched canopy over a garden gateway',outline:'An open timber arch with steps',scale:'Six-stud base and a four-stud roof',reason:'Slopes shape the entire roof'};
+afterEach(()=>{vi.unstubAllGlobals();vi.restoreAllMocks();});
+it('replays the complete gateway through the same roof command offered to the agent',()=>{
+ const result=compileTechniques(program,stock);
+ expect(result.build.steps).toHaveLength(33);expect(constructionIssues(result.build,stock,24)).toEqual([]);
+ expect(result.receipts[0].parts).toHaveLength(5);
+ const bad=structuredClone(program);const last=bad.operations.at(-1)!;if(last.kind==='technique')last.childPort='grip:99:99';
+ expect(()=>compileTechniques(bad,stock)).toThrow(/actual bottom grip/);
+});
+it('uses the roof on a normal gateway request, preserves low-quantity stock, and keeps blind review',async()=>{
+ const fetch=vi.fn().mockResolvedValueOnce(reply(plan)).mockResolvedValueOnce(reply(raw)).mockResolvedValueOnce(reply({looksLike:'garden gateway',recognizable:4,complete:4,impressive:4,colors:4,fixes:[]})).mockResolvedValueOnce(reply({matchesSubject:true}));vi.stubGlobal('fetch',fetch);
+ const events:BuildEvent[]=[];
+ const build=await designBuild(inv,{name:'Timber garden gateway',pitch:'A roofed garden entrance',estimatedParts:33,difficulty:3,keyParts:[]},e=>events.push(e),{views:()=>['data:image/jpeg;base64,AA==']});
+ expect(build).not.toBeNull();expect(events.at(-1)?.phase).toBe('ready');expect(fetch).toHaveBeenCalledTimes(4);
+ expect(events.find(e=>e.phase==='planned')).toMatchObject({reserved:5});expect(constructionIssues(build!,stock,24)).toEqual([]);
+ expect(fetch.mock.calls[1][1].body).toContain('slope-4x2-white');
+ const blind=fetch.mock.calls[2][1].body;expect(blind).not.toContain('Timber garden gateway');expect(blind).not.toContain('gable-roof');
+});

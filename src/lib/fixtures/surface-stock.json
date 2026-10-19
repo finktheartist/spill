@@ -1,0 +1,23 @@
+{
+  "source": "Anonymized regression fixture. Part counts are test data, not a verified inventory.",
+  "stock": {
+    "bracket-1x2-light-gray": 16,
+    "slope-2x2-white": 4,
+    "tile-2x2-white": 10,
+    "plate-2x2-black": 2,
+    "plate-2x2-white": 2,
+    "plate-2x4-white": 4,
+    "brick-2x2-white": 12,
+    "brick-2x4-white": 4,
+    "brick-2x2-dark-gray": 2,
+    "plate-4x8-black": 1,
+    "plate-2x4-black": 1,
+    "brick-1x2-trans-clear": 4,
+    "tile-1x2-white": 12,
+    "roundbrick-1x1-black": 1,
+    "roundplate-1x1-trans-red": 1,
+    "roundbrick-2x2-black": 1,
+    "roundtile-1x1-white": 2,
+    "tile-1x2-black": 1
+  }
+}

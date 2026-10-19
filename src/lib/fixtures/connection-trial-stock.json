@@ -1,0 +1,223 @@
+{
+  "name": "Survey Robot",
+  "description": "A compact industrial survey automaton featuring wide-stance stabilizer feet, cylindrical hydraulic legs, an orange-armored chest with a front utility panel, SNOT-mounted articulated arms, and an optical sensor head.",
+  "operations": [
+    {
+      "partId": "plate-4x6-dark-gray",
+      "parent": -1,
+      "parentPort": "",
+      "childPort": "",
+      "twist": 0
+    },
+    {
+      "partId": "plate-1x4-black",
+      "parent": 0,
+      "parentPort": "stud:1:1",
+      "childPort": "grip:1:0",
+      "twist": 90
+    },
+    {
+      "partId": "plate-1x4-black",
+      "parent": 0,
+      "parentPort": "stud:4:1",
+      "childPort": "grip:1:0",
+      "twist": 90
+    },
+    {
+      "partId": "tile-1x2-orange",
+      "parent": 1,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "tile-1x2-orange",
+      "parent": 2,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "roundbrick-1x1-dark-gray",
+      "parent": 1,
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "roundbrick-1x1-dark-gray",
+      "parent": 2,
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "brick-1x1-dark-gray",
+      "parent": 5,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "brick-1x1-dark-gray",
+      "parent": 6,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "plate-1x6-dark-gray",
+      "parent": 7,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:1:0",
+      "twist": 0
+    },
+    {
+      "partId": "plate-2x6-orange",
+      "parent": 9,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:1",
+      "twist": 0
+    },
+    {
+      "partId": "brick-2x2-orange",
+      "parent": 10,
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "brick-2x2-orange",
+      "parent": 10,
+      "parentPort": "stud:3:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "sidebrick-1x1-light-gray",
+      "parent": 10,
+      "parentPort": "stud:0:1",
+      "childPort": "grip:0:0",
+      "twist": -90
+    },
+    {
+      "partId": "sidebrick-1x1-light-gray",
+      "parent": 10,
+      "parentPort": "stud:5:1",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "partId": "bracket-1x2-light-gray",
+      "parent": 11,
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "tile-1x2-dark-gray",
+      "parent": 15,
+      "parentPort": "side:0",
+      "childPort": "grip:0:0",
+      "twist": 180
+    },
+    {
+      "partId": "brick-1x2-light-gray",
+      "parent": 11,
+      "parentPort": "stud:1:1",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "curve-2x2-orange",
+      "parent": 11,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:1",
+      "twist": -90
+    },
+    {
+      "partId": "curve-2x2-orange",
+      "parent": 12,
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 90
+    },
+    {
+      "partId": "brick-1x2-dark-gray",
+      "parent": 13,
+      "parentPort": "side:0",
+      "childPort": "grip:1:0",
+      "twist": 90
+    },
+    {
+      "partId": "brick-1x2-dark-gray",
+      "parent": 14,
+      "parentPort": "side:0",
+      "childPort": "grip:0:0",
+      "twist": -90
+    },
+    {
+      "partId": "roundplate-1x1-light-gray",
+      "parent": 20,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "roundplate-1x1-light-gray",
+      "parent": 21,
+      "parentPort": "stud:1:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "jumper-1x2-light-gray",
+      "parent": 17,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "sidebrick-1x1-yellow",
+      "parent": 24,
+      "parentPort": "stud:center",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "roundplate-1x1-black",
+      "parent": 25,
+      "parentPort": "side:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "roundtile-1x1-trans-clear",
+      "parent": 26,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "plate-1x3-yellow",
+      "parent": 25,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:1:0",
+      "twist": 0
+    },
+    {
+      "partId": "cheese-1x1-yellow",
+      "parent": 28,
+      "parentPort": "stud:0:0",
+      "childPort": "grip:0:0",
+      "twist": 0
+    },
+    {
+      "partId": "cheese-1x1-yellow",
+      "parent": 28,
+      "parentPort": "stud:2:0",
+      "childPort": "grip:0:0",
+      "twist": 180
+    }
+  ]
+}

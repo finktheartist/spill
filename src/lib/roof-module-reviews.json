@@ -1,0 +1,9 @@
+[
+  {
+    "signature": "[[\"plate-4x4-white\",0,0,0,0,null],[\"slope-4x2-white\",0,0,1,0,[1,0,0,0,1,0,0,0,1]],[\"slope-2x2-white\",0,2,1,0,[-1,0,0,0,-1,0,0,0,1]],[\"slope-2x2-white\",2,2,1,0,[-1,0,0,0,-1,0,0,0,1]],[\"tile-2x4-white\",0,1,4,0,[1,0,0,0,1,0,0,0,1]]]",
+    "profile": 4,
+    "finish": 5,
+    "reusable": 4,
+    "explanation": "This is a clean, basic frustum module formed by back-to-back wide slopes between a base brick and a top tile. The finish is completely smooth and studless with tight seams. While the profile is simple and slightly stepped at the top and bottom transitions, it serves as a very clean, versatile building block for roofs, hoods, or tapered structural bases."
+  }
+]

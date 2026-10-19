@@ -1,0 +1,305 @@
+{
+  "kind": "Independent authored physics fixtures. Never provider templates or visually qualified candidates.",
+  "layouts": [
+    {
+      "id": "authored-low",
+      "description": "Independent authored test geometry; not provider output or visual qualification.",
+      "parts": [
+        {
+          "partId": "plate-2x2-tan",
+          "role": "neck",
+          "x": 1,
+          "y": 0,
+          "z": 3.6,
+          "rot": 0
+        },
+        {
+          "partId": "plate-2x4-tan",
+          "role": "head",
+          "x": 0,
+          "y": 0,
+          "z": 4,
+          "rot": 0
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 1,
+          "y": 1,
+          "z": 4.4,
+          "rot": 0
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 0,
+          "y": 1,
+          "z": 4.4,
+          "rot": 90
+        },
+        {
+          "partId": "brick-1x1-medium-nougat",
+          "role": "head",
+          "x": 0,
+          "y": 0,
+          "z": 4.4,
+          "rot": 0
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 3,
+          "y": 1,
+          "z": 4.4,
+          "rot": 90
+        },
+        {
+          "partId": "brick-1x1-medium-nougat",
+          "role": "head",
+          "x": 3,
+          "y": 0,
+          "z": 4.4,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x4-reddish-brown",
+          "role": "head",
+          "x": 0,
+          "y": 1,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x1-dark-gray",
+          "role": "eye-left",
+          "x": 0,
+          "y": 0,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x1-dark-gray",
+          "role": "eye-right",
+          "x": 3,
+          "y": 0,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "slope-2x2-black",
+          "role": "ear-left",
+          "x": 0,
+          "y": 1,
+          "z": 6,
+          "rot": 90
+        },
+        {
+          "partId": "slope-2x2-black",
+          "role": "ear-right",
+          "x": 2,
+          "y": 1,
+          "z": 6,
+          "rot": 270
+        },
+        {
+          "partId": "plate-2x3-tan",
+          "role": "muzzle",
+          "x": 1,
+          "y": -2,
+          "z": 4.4,
+          "rot": 90
+        },
+        {
+          "partId": "plate-1x2-black",
+          "role": "nose",
+          "x": 1,
+          "y": -2,
+          "z": 4.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-tan",
+          "role": "muzzle",
+          "x": 1,
+          "y": -1,
+          "z": 4.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-reddish-brown",
+          "role": "muzzle",
+          "x": 1,
+          "y": 0,
+          "z": 4.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "tile-1x2-tan",
+          "role": "muzzle",
+          "x": 1,
+          "y": 0,
+          "z": 5.2,
+          "rot": 0
+        }
+      ]
+    },
+    {
+      "id": "authored-curved",
+      "description": "Independent authored test geometry; not provider output or visual qualification.",
+      "parts": [
+        {
+          "partId": "invslope-1x2-reddish-brown",
+          "role": "neck",
+          "x": 1,
+          "y": 1,
+          "z": 3.6,
+          "rot": 90
+        },
+        {
+          "partId": "plate-2x4-white",
+          "role": "head",
+          "x": 0,
+          "y": 0,
+          "z": 4.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 1,
+          "y": 1,
+          "z": 5.2,
+          "rot": 0
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 0,
+          "y": 1,
+          "z": 5.2,
+          "rot": 90
+        },
+        {
+          "partId": "curve-1x2-black",
+          "role": "head",
+          "x": 0,
+          "y": -1,
+          "z": 4.8,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-reddish-brown",
+          "role": "head",
+          "x": 0,
+          "y": 0,
+          "z": 6.4,
+          "rot": 90
+        },
+        {
+          "partId": "brick-1x2-reddish-brown",
+          "role": "head",
+          "x": 3,
+          "y": 1,
+          "z": 5.2,
+          "rot": 90
+        },
+        {
+          "partId": "curve-1x2-black",
+          "role": "head",
+          "x": 3,
+          "y": -1,
+          "z": 4.8,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-reddish-brown",
+          "role": "head",
+          "x": 3,
+          "y": 0,
+          "z": 6.4,
+          "rot": 90
+        },
+        {
+          "partId": "plate-1x4-reddish-brown",
+          "role": "head",
+          "x": 0,
+          "y": 2,
+          "z": 6.4,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x1-dark-gray",
+          "role": "eye-left",
+          "x": 0,
+          "y": 0,
+          "z": 6.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x1-dark-gray",
+          "role": "eye-right",
+          "x": 3,
+          "y": 0,
+          "z": 6.800000000000001,
+          "rot": 0
+        },
+        {
+          "partId": "slope-2x2-black",
+          "role": "ear-left",
+          "x": 0,
+          "y": 2,
+          "z": 6.800000000000001,
+          "rot": 90
+        },
+        {
+          "partId": "slope-2x2-black",
+          "role": "ear-right",
+          "x": 2,
+          "y": 2,
+          "z": 6.800000000000001,
+          "rot": 270
+        },
+        {
+          "partId": "plate-2x4-reddish-brown",
+          "role": "muzzle",
+          "x": 1,
+          "y": -3,
+          "z": 5.2,
+          "rot": 90
+        },
+        {
+          "partId": "plate-1x2-black",
+          "role": "nose",
+          "x": 1,
+          "y": -3,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-tan",
+          "role": "muzzle",
+          "x": 1,
+          "y": -2,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "plate-1x2-reddish-brown",
+          "role": "muzzle",
+          "x": 1,
+          "y": -1,
+          "z": 5.6000000000000005,
+          "rot": 0
+        },
+        {
+          "partId": "tile-1x2-tan",
+          "role": "muzzle",
+          "x": 1,
+          "y": -1,
+          "z": 6,
+          "rot": 0
+        }
+      ]
+    }
+  ]
+}

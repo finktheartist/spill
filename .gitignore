@@ -1,0 +1,37 @@
+# Dependencies, compiled output, and local caches
+node_modules/
+dist/
+.cache/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+.npmrc
+
+# Local photos, exports, and review material
+private/
+uploads/
+test-photos/
+qa/
+videos/
+public/grade/
+public/demo/
+*.zip
+*.tar
+*.gz
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp

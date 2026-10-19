@@ -1,0 +1,14 @@
+/* Shape-first build cards (main Builds screen and the standalone builder page). */
+.shape-intro { max-width: 62ch; margin: 0 0 18px; }
+.shape-cards .card-body { gap: 8px; }
+.shape-actions { display: flex; gap: 8px; margin-top: auto; padding-top: 6px; }
+.shape-actions .btn { flex: 1; }
+.shape-more { display: flex; justify-content: center; margin-top: 24px; }
+.shape-small { background: var(--card); border: 1.5px solid var(--ink); border-radius: 14px; padding: 20px 22px; display: grid; gap: 10px; max-width: 720px; }
+.shape-small h3 { font-size: 24px; margin: 0; }
+.shape-small p { margin: 0; max-width: 62ch; color: var(--muted); }
+.shape-small .shape-actions { flex-wrap: wrap; padding-top: 4px; }
+.shape-small .shape-actions .btn { flex: 0 0 auto; }
+.shape-note { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0 0 18px; max-width: 900px; }
+.shape-note p { margin: 0; flex: 1 1 340px; max-width: 62ch; color: var(--muted); }
+.shape-note .btn { flex: 0 0 auto; }

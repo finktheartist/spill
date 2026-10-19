@@ -1,0 +1,1671 @@
+{
+  "source": "Anonymized regression fixture. Part counts are test data, not a verified inventory.",
+  "plans": [
+    {
+      "id": "animal:dog:8:round:blue:corner:3:1:3:0",
+      "name": "Dog",
+      "description": "Static Dog with four separate grounded feet, an open belly, a 3-plate waist and raised chest/hips. Moderate muzzle, hanging ears and narrow raised tail. 8-stud torso and round grounded legs, recessed eye fronts below a thin forehead cap.",
+      "nodes": [
+        {
+          "id": "frame",
+          "option": {
+            "id": "animal:dog:frame:8:round:corner:3:1:3:0",
+            "role": "frame",
+            "program": {
+              "name": "frame",
+              "description": "Static frame anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x8-black",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:1:1",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": 1,
+                  "parentPort": "grip:1:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:6:1",
+                  "childPort": "stud:1:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:6:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "chest",
+          "option": {
+            "id": "animal:dog:chest:8:round:corner:3:1:3:0",
+            "role": "chest",
+            "program": {
+              "name": "chest",
+              "description": "Static chest anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "hips",
+          "option": {
+            "id": "animal:dog:hips:8:round:corner:3:1:3:0",
+            "role": "hips",
+            "program": {
+              "name": "hips",
+              "description": "Static hips anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x2-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:6:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "torso",
+          "option": {
+            "id": "animal:dog:torso:8:round:corner:3:1:3:0",
+            "role": "torso",
+            "program": {
+              "name": "torso",
+              "description": "Static torso anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x4-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x3-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:3:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "tile-2x4-azure",
+                  "parent": 1,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:2:0",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "neck",
+          "option": {
+            "id": "animal:dog:neck:8:round:corner:3:1:3:0",
+            "role": "neck",
+            "program": {
+              "name": "neck",
+              "description": "Static neck anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "chest",
+            "parentPart": 0,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "head",
+          "option": {
+            "id": "animal:dog:head:8:round:corner:3:1:3:0",
+            "role": "head",
+            "program": {
+              "name": "head",
+              "description": "Static head anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x4-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "brick-1x2-dark-blue",
+                  "parent": 0,
+                  "parentPort": "stud:2:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": 2,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": 2,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "neck",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:2:1",
+            "twist": 90
+          }
+        },
+        {
+          "id": "face",
+          "option": {
+            "id": "animal:dog:face:8:round:corner:3:1:3:0",
+            "role": "face",
+            "program": {
+              "name": "face",
+              "description": "Static face anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x3-reddish-brown",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x4-azure",
+                  "parent": 1,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 3,
+                  "parentPort": "grip:3:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-azure",
+                  "parent": 4,
+                  "parentPort": "grip:0:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 1,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "muzzle",
+          "option": {
+            "id": "animal:dog:muzzle:8:round:corner:3:1:3:0",
+            "role": "muzzle",
+            "program": {
+              "name": "muzzle",
+              "description": "Static muzzle anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-1x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "ear-left",
+          "option": {
+            "id": "animal:dog:ear-left:8:round:corner:3:1:3:0",
+            "role": "ear-left",
+            "program": {
+              "name": "ear-left",
+              "description": "Static ear-left anatomy with exact mating ports.",
+              "rootRotation": 180,
+              "operations": [
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "face",
+            "parentPart": 0,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:1",
+            "twist": 180
+          }
+        },
+        {
+          "id": "ear-right",
+          "option": {
+            "id": "animal:dog:ear-right:8:round:corner:3:1:3:0",
+            "role": "ear-right",
+            "program": {
+              "name": "ear-right",
+              "description": "Static ear-right anatomy with exact mating ports.",
+              "rootRotation": 180,
+              "operations": [
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "face",
+            "parentPart": 5,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:1",
+            "twist": 180
+          }
+        },
+        {
+          "id": "tail",
+          "option": {
+            "id": "animal:dog:tail:8:round:corner:3:1:3:0",
+            "role": "tail",
+            "program": {
+              "name": "tail",
+              "description": "Static tail anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x1-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-1x2-dark-gray",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "curve-1x2-azure",
+                  "parent": 1,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "plate-1x1-white",
+                  "parent": 1,
+                  "parentPort": "grip:1:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "hips",
+            "parentPart": 1,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-front-left",
+          "option": {
+            "id": "animal:dog:leg-front-left:8:round:corner:3:1:3:0",
+            "role": "leg-front-left",
+            "program": {
+              "name": "leg-front-left",
+              "description": "Static leg-front-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 0,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-front-right",
+          "option": {
+            "id": "animal:dog:leg-front-right:8:round:corner:3:1:3:0",
+            "role": "leg-front-right",
+            "program": {
+              "name": "leg-front-right",
+              "description": "Static leg-front-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 2,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-left",
+          "option": {
+            "id": "animal:dog:leg-rear-left:8:round:corner:3:1:3:0",
+            "role": "leg-rear-left",
+            "program": {
+              "name": "leg-rear-left",
+              "description": "Static leg-rear-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 3,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-right",
+          "option": {
+            "id": "animal:dog:leg-rear-right:8:round:corner:3:1:3:0",
+            "role": "leg-rear-right",
+            "program": {
+              "name": "leg-rear-right",
+              "description": "Static leg-rear-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 4,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "animal:fox:8:round:blue:corner:3:1:3:0",
+      "name": "Fox",
+      "description": "Static Fox with four separate grounded feet, an open belly, a 3-plate waist and raised chest/hips. Long slender muzzle, alert ears and a substantial sweeping tail. 8-stud torso and round grounded legs, recessed eye fronts below a thin forehead cap.",
+      "nodes": [
+        {
+          "id": "frame",
+          "option": {
+            "id": "animal:fox:frame:8:round:corner:3:1:3:0",
+            "role": "frame",
+            "program": {
+              "name": "frame",
+              "description": "Static frame anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x8-black",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:1:1",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": 1,
+                  "parentPort": "grip:1:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:6:1",
+                  "childPort": "stud:1:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:6:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "chest",
+          "option": {
+            "id": "animal:fox:chest:8:round:corner:3:1:3:0",
+            "role": "chest",
+            "program": {
+              "name": "chest",
+              "description": "Static chest anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "hips",
+          "option": {
+            "id": "animal:fox:hips:8:round:corner:3:1:3:0",
+            "role": "hips",
+            "program": {
+              "name": "hips",
+              "description": "Static hips anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x2-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:6:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "torso",
+          "option": {
+            "id": "animal:fox:torso:8:round:corner:3:1:3:0",
+            "role": "torso",
+            "program": {
+              "name": "torso",
+              "description": "Static torso anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "brick-2x4-white",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:2:0",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "neck",
+          "option": {
+            "id": "animal:fox:neck:8:round:corner:3:1:3:0",
+            "role": "neck",
+            "program": {
+              "name": "neck",
+              "description": "Static neck anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "chest",
+            "parentPart": 0,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "head",
+          "option": {
+            "id": "animal:fox:head:8:round:corner:3:1:3:0",
+            "role": "head",
+            "program": {
+              "name": "head",
+              "description": "Static head anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x4-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:2:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "brick-1x2-dark-blue",
+                  "parent": 0,
+                  "parentPort": "stud:3:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": 2,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "slope-1x2-dark-azure",
+                  "parent": 2,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "neck",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:3:1",
+            "twist": 90
+          }
+        },
+        {
+          "id": "face",
+          "option": {
+            "id": "animal:fox:face:8:round:corner:3:1:3:0",
+            "role": "face",
+            "program": {
+              "name": "face",
+              "description": "Static face anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x3-reddish-brown",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x4-azure",
+                  "parent": 1,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 3,
+                  "parentPort": "grip:3:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-azure",
+                  "parent": 4,
+                  "parentPort": "grip:0:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 1,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "muzzle",
+          "option": {
+            "id": "animal:fox:muzzle:8:round:corner:3:1:3:0",
+            "role": "muzzle",
+            "program": {
+              "name": "muzzle",
+              "description": "Static muzzle anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "ear-left",
+          "option": {
+            "id": "animal:fox:ear-left:8:round:corner:3:1:3:0",
+            "role": "ear-left",
+            "program": {
+              "name": "ear-left",
+              "description": "Static ear-left anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "cheese-1x1-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 3,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": 90
+          }
+        },
+        {
+          "id": "ear-right",
+          "option": {
+            "id": "animal:fox:ear-right:8:round:corner:3:1:3:0",
+            "role": "ear-right",
+            "program": {
+              "name": "ear-right",
+              "description": "Static ear-right anatomy with exact mating ports.",
+              "rootRotation": 270,
+              "operations": [
+                {
+                  "partId": "cheese-1x1-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 4,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "tail",
+          "option": {
+            "id": "animal:fox:tail:8:round:corner:3:1:3:0",
+            "role": "tail",
+            "program": {
+              "name": "tail",
+              "description": "Static tail anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x4-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-2x3-dark-blue",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "curve-1x2-azure",
+                  "parent": 1,
+                  "parentPort": "stud:2:1",
+                  "childPort": "grip:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "curve-1x2-azure",
+                  "parent": 1,
+                  "parentPort": "stud:2:0",
+                  "childPort": "grip:0:0",
+                  "twist": 90
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "hips",
+            "parentPart": 1,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:1",
+            "twist": 90
+          }
+        },
+        {
+          "id": "leg-front-left",
+          "option": {
+            "id": "animal:fox:leg-front-left:8:round:corner:3:1:3:0",
+            "role": "leg-front-left",
+            "program": {
+              "name": "leg-front-left",
+              "description": "Static leg-front-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 0,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-front-right",
+          "option": {
+            "id": "animal:fox:leg-front-right:8:round:corner:3:1:3:0",
+            "role": "leg-front-right",
+            "program": {
+              "name": "leg-front-right",
+              "description": "Static leg-front-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 2,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-left",
+          "option": {
+            "id": "animal:fox:leg-rear-left:8:round:corner:3:1:3:0",
+            "role": "leg-rear-left",
+            "program": {
+              "name": "leg-rear-left",
+              "description": "Static leg-rear-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 3,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-right",
+          "option": {
+            "id": "animal:fox:leg-rear-right:8:round:corner:3:1:3:0",
+            "role": "leg-rear-right",
+            "program": {
+              "name": "leg-rear-right",
+              "description": "Static leg-rear-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 4,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "animal:bear:6:round:blue:corner:3:1:3:0",
+      "name": "Bear",
+      "description": "Static Bear with four separate grounded feet, an open belly, a 3-plate waist and raised chest/hips. Broad compact chest/skull, short muzzle, rounded ears and a stub tail. 6-stud torso and round grounded legs, recessed eye fronts below a thin forehead cap.",
+      "nodes": [
+        {
+          "id": "frame",
+          "option": {
+            "id": "animal:bear:frame:6:round:corner:3:1:3:0",
+            "role": "frame",
+            "program": {
+              "name": "frame",
+              "description": "Static frame anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x6-dark-blue",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:1:1",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-light-gray",
+                  "parent": 1,
+                  "parentPort": "grip:1:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:4:1",
+                  "childPort": "stud:1:0",
+                  "twist": 90
+                },
+                {
+                  "partId": "cornerplate-2x2-white",
+                  "parent": 1,
+                  "parentPort": "grip:4:0",
+                  "childPort": "stud:0:0",
+                  "twist": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "chest",
+          "option": {
+            "id": "animal:bear:chest:6:round:corner:3:1:3:0",
+            "role": "chest",
+            "program": {
+              "name": "chest",
+              "description": "Static chest anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-2x2-azure",
+                  "parent": 1,
+                  "parentPort": "grip:1:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "hips",
+          "option": {
+            "id": "animal:bear:hips:6:round:corner:3:1:3:0",
+            "role": "hips",
+            "program": {
+              "name": "hips",
+              "description": "Static hips anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-1x2-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-2x2-azure",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-1x2-dark-blue",
+                  "parent": 1,
+                  "parentPort": "grip:0:1",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:4:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "torso",
+          "option": {
+            "id": "animal:bear:torso:6:round:corner:3:1:3:0",
+            "role": "torso",
+            "program": {
+              "name": "torso",
+              "description": "Static torso anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "brick-2x2-light-gray",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 1,
+            "parentPort": "stud:2:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "neck",
+          "option": {
+            "id": "animal:bear:neck:6:round:corner:3:1:3:0",
+            "role": "neck",
+            "program": {
+              "name": "neck",
+              "description": "Static neck anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "chest",
+            "parentPart": 0,
+            "parentPort": "stud:1:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "head",
+          "option": {
+            "id": "animal:bear:head:6:round:corner:3:1:3:0",
+            "role": "head",
+            "program": {
+              "name": "head",
+              "description": "Static head anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x3-dark-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "brick-2x4-white",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:2:0",
+                  "twist": -90
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 1,
+                  "parentPort": "stud:1:1",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "neck",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:2:1",
+            "twist": 90
+          }
+        },
+        {
+          "id": "face",
+          "option": {
+            "id": "animal:bear:face:6:round:corner:3:1:3:0",
+            "role": "face",
+            "program": {
+              "name": "face",
+              "description": "Static face anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x3-reddish-brown",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x4-azure",
+                  "parent": 1,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-green",
+                  "parent": 3,
+                  "parentPort": "grip:3:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x1-dark-azure",
+                  "parent": 4,
+                  "parentPort": "grip:0:0",
+                  "childPort": "stud:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 1,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "muzzle",
+          "option": {
+            "id": "animal:bear:muzzle:6:round:corner:3:1:3:0",
+            "role": "muzzle",
+            "program": {
+              "name": "muzzle",
+              "description": "Static muzzle anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "plate-1x2-reddish-brown",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "plate-1x2-black",
+                  "parent": 0,
+                  "parentPort": "stud:0:0",
+                  "childPort": "grip:0:0",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 0,
+            "parentPort": "stud:0:0",
+            "childPort": "grip:1:0",
+            "twist": -90
+          }
+        },
+        {
+          "id": "ear-left",
+          "option": {
+            "id": "animal:bear:ear-left:6:round:corner:3:1:3:0",
+            "role": "ear-left",
+            "program": {
+              "name": "ear-left",
+              "description": "Static ear-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "curve-1x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 1,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "ear-right",
+          "option": {
+            "id": "animal:bear:ear-right:6:round:corner:3:1:3:0",
+            "role": "ear-right",
+            "program": {
+              "name": "ear-right",
+              "description": "Static ear-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "curve-1x2-azure",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "head",
+            "parentPart": 1,
+            "parentPort": "stud:3:1",
+            "childPort": "grip:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "tail",
+          "option": {
+            "id": "animal:bear:tail:6:round:corner:3:1:3:0",
+            "role": "tail",
+            "program": {
+              "name": "tail",
+              "description": "Static tail anatomy with exact mating ports.",
+              "rootRotation": 90,
+              "operations": [
+                {
+                  "partId": "plate-2x2-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                },
+                {
+                  "partId": "tile-1x2-dark-azure",
+                  "parent": 0,
+                  "parentPort": "stud:1:0",
+                  "childPort": "grip:1:0",
+                  "twist": -90
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "hips",
+            "parentPart": 1,
+            "parentPort": "stud:0:1",
+            "childPort": "grip:0:1",
+            "twist": 90
+          }
+        },
+        {
+          "id": "leg-front-left",
+          "option": {
+            "id": "animal:bear:leg-front-left:6:round:corner:3:1:3:0",
+            "role": "leg-front-left",
+            "program": {
+              "name": "leg-front-left",
+              "description": "Static leg-front-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 0,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-front-right",
+          "option": {
+            "id": "animal:bear:leg-front-right:6:round:corner:3:1:3:0",
+            "role": "leg-front-right",
+            "program": {
+              "name": "leg-front-right",
+              "description": "Static leg-front-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 2,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-left",
+          "option": {
+            "id": "animal:bear:leg-rear-left:6:round:corner:3:1:3:0",
+            "role": "leg-rear-left",
+            "program": {
+              "name": "leg-rear-left",
+              "description": "Static leg-rear-left anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 3,
+            "parentPort": "grip:0:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        },
+        {
+          "id": "leg-rear-right",
+          "option": {
+            "id": "animal:bear:leg-rear-right:6:round:corner:3:1:3:0",
+            "role": "leg-rear-right",
+            "program": {
+              "name": "leg-rear-right",
+              "description": "Static leg-rear-right anatomy with exact mating ports.",
+              "rootRotation": 0,
+              "operations": [
+                {
+                  "partId": "roundbrick-1x1-tan",
+                  "parent": -1,
+                  "parentPort": "",
+                  "childPort": "",
+                  "twist": 0
+                }
+              ]
+            }
+          },
+          "attachment": {
+            "parent": "frame",
+            "parentPart": 4,
+            "parentPort": "grip:1:0",
+            "childPort": "stud:0:0",
+            "twist": 0
+          }
+        }
+      ]
+    }
+  ]
+}
